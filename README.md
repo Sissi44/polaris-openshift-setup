@@ -2,7 +2,7 @@
 A setting up process for openshift on a private cloud environment
 
 ## Prepare the image for Private Environment
-- Go into server ehich have the external network access : ssh login on root_user@696
+- Go into server which have the external network access : ssh login on root_user@696
 - Add the Proxy : sudo vi /etc/sysconfig/docker
   HTTP_PROXY=http://user:password@proxy:8080
   HTTPS_PROXY=https://user:password@proxy:8080
